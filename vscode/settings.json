@@ -1,0 +1,33 @@
+{
+    "editor.rulers": [100],
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "update.mode": "none",
+
+    // TypeScript:
+
+    // "typescript.tsdk": "node_modules/typescript/stable/lib"
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true
+    },
+    // "tslint.configFile": "node_modules.google.tslint.json"
+
+    // Python:
+
+    // Python lint tool ($ pip3 install pylint)
+    "python.linting.pylintPath": "pylint",
+
+    // HTML:
+
+    "[html]": {
+        "editor.rulers": [100],
+    },
+    "html.format.wrapLineLength": 100,
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.enable": true,
+
+}
